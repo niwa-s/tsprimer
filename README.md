@@ -1,4 +1,7 @@
 # tsprimer
 
-typescriptの練習に、jsprimerのtodoアプリをjavascriptからtypescriptに移植した。
-元々コメントでparamとreturnの型が定義されていたおかげで困ることはほとんど無かったが、todoItemViewとtodoItemListのidプロパティの表記が間違っていた？（他の箇所ではnumber型と書かれているが、string型になっていた）
+typescriptの練習に、jsprimer(https://jsprimer.net/use-case/todoapp/final/)のtodoアプリをjavascriptからtypescriptに移植してみた。
+
+元々コメント文でparamとreturnの型が定義されていたおかげで困ることはほとんど無かったが、todoItemViewとtodoItemListのidプロパティの表記が間違っている？（他の箇所ではnumber型と書かれているが、string型になっていた）
+
+javascriptで写経していたときはバグ取りが困難だったが、typescriptに移植したときは全く困ることがなくかなり気に入った（そのかわり、typescriptに慣れていないせいで無名関数を渡すときの型定義に苦労したが）。
