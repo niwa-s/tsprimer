@@ -1,2 +1,4 @@
 # tsprimer
-# tsprimer
+
+typescriptの練習に、jsprimerのtodoアプリをjavascriptからtypescriptに移植した。
+元々コメントでparamとreturnの型が定義されていたおかげで困ることはほとんど無かったが、todoItemViewとtodoItemListのidプロパティの表記が間違っていた？（他の箇所ではnumber型と書かれているが、string型になっていた）
